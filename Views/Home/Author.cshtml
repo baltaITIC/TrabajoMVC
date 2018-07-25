@@ -1,0 +1,22 @@
+@using TrabajoMVC.Models
+@model IEnumerable<Books>
+
+
+@{
+    ViewData["Title"] = "Authors Page Page";
+}
+
+<h1>BALTA's Authors PAGE</h1>
+
+<table>
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td>
+                @item.Author    
+            </td>
+        </tr>
+    }
+</table>
+
+@Html.RouteLink("Go to other page", new {action= "Other",controller="Home" })

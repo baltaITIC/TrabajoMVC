@@ -1,0 +1,23 @@
+@using TrabajoMVC.Models
+@model Books
+
+@{
+    ViewData["Title"] = "Details Page";
+}
+
+<h1> Details PAGE</h1>
+
+<div>
+    <h1>Name</h1>
+    @Model.Name
+</div>
+
+<div>
+    <h1>Author</h1>
+    @Model.Author
+</div>
+
+<div>
+    <h1>Price</h1>
+    $@Model.Price M.N. 
+</div>

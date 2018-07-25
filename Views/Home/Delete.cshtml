@@ -1,0 +1,31 @@
+@using TrabajoMVC.Models
+@model IEnumerable<Books>
+
+@{
+    ViewData["Title"] = "Delete Page";
+    
+}
+
+<h1>BALTA's DELETE PAGE</h1>
+
+<table class="table">
+    @foreach(var item in Model)
+    {
+        if (item.Name != null){
+        <tr>
+            <td>
+                <h3>@item.Name</h3> 
+            </td>
+            <td>
+                <h3>@item.Author</h3> 
+            </td>
+            <td>
+                @Html.ActionLink("Delete", "DeleteBook", "Home", item, null)   
+                /
+                @Html.ActionLink("Update", "Update", "Home", item, null)    
+            </td>
+        </tr>
+        }
+        
+    }
+</table>

@@ -1,0 +1,33 @@
+@using TrabajoMVC.Models
+@model Books
+
+
+
+@{
+    ViewData["Title"] = "Create Page";
+    List<SelectListItem> li= (List<SelectListItem>)ViewBag.Authors;
+    
+}
+
+@using(Html.BeginForm("SaveBook", "Home", Model))
+{
+    <h2>Dar de alta la información de un libro</h2>
+    <div>
+    @Html.DisplayNameFor(model => model.Name)
+    @Html.TextBoxFor(model => model.Name)
+    </div>
+    
+    
+    <div>
+        
+        @Html.DropDownListFor(model => model.Author, li, "Select Author", new { @class = "form-control" })
+
+    </div>
+    <div>
+    @Html.DisplayNameFor(model => model.Price)
+    @Html.TextBoxFor(model => model.Price)
+    </div>
+
+    <input type="submit" name="SaveButton" value="Save" />
+
+}

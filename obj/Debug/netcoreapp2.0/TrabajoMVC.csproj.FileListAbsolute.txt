@@ -1,0 +1,10 @@
+C:\Users\bmledo\Documents\TrabajoMVC\bin\Debug\netcoreapp2.0\TrabajoMVC.deps.json
+C:\Users\bmledo\Documents\TrabajoMVC\bin\Debug\netcoreapp2.0\TrabajoMVC.runtimeconfig.json
+C:\Users\bmledo\Documents\TrabajoMVC\bin\Debug\netcoreapp2.0\TrabajoMVC.runtimeconfig.dev.json
+C:\Users\bmledo\Documents\TrabajoMVC\bin\Debug\netcoreapp2.0\TrabajoMVC.dll
+C:\Users\bmledo\Documents\TrabajoMVC\bin\Debug\netcoreapp2.0\TrabajoMVC.pdb
+C:\Users\bmledo\Documents\TrabajoMVC\obj\Debug\netcoreapp2.0\TrabajoMVC.csproj.CoreCompileInputs.cache
+C:\Users\bmledo\Documents\TrabajoMVC\obj\Debug\netcoreapp2.0\TrabajoMVC.AssemblyInfoInputs.cache
+C:\Users\bmledo\Documents\TrabajoMVC\obj\Debug\netcoreapp2.0\TrabajoMVC.AssemblyInfo.cs
+C:\Users\bmledo\Documents\TrabajoMVC\obj\Debug\netcoreapp2.0\TrabajoMVC.dll
+C:\Users\bmledo\Documents\TrabajoMVC\obj\Debug\netcoreapp2.0\TrabajoMVC.pdb

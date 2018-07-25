@@ -1,0 +1,47 @@
+@using TrabajoMVC.Models
+@model Books
+
+@{
+   
+  ViewData["Title"] = "Update Page";  
+}
+
+<h1>UPDATE PAGE</h1>
+
+
+   
+        @using(Html.BeginForm("SaveUpdate", "Home", Model))
+{   
+   
+    
+    <table class="table">
+        <tr>             
+            <td>
+                <div>
+                    @Html.DisplayNameFor(model => model.Name)
+                    @Html.TextBoxFor(model => model.Name)
+                    </div> 
+            </td>
+            <td>
+                <div>
+                    @Html.DisplayNameFor(model => model.Author)
+                    @Html.TextBoxFor(model => model.Author)
+                    </div> 
+            </td>
+            <td>
+                <div>
+                    @Html.DisplayNameFor(model => model.Price)
+                    @Html.TextBoxFor(model => model.Price)
+                    </div> 
+            </td>
+            <td>
+                <input type="submit" name="UpdateButton" value="Save" />  
+                
+  
+            </td>
+        </tr>
+        </table>
+        
+}
+        
+    

@@ -1,0 +1,18 @@
+@using TrabajoMVC.Models
+@model Books
+
+@{
+    ViewData["Title"] = "Create Page";
+}
+
+@using(Html.BeginForm("SaveAuthor", "Home", Model))
+{
+   
+    <div>
+    @Html.DisplayNameFor(model => model.Author)
+    @Html.TextBoxFor(model => model.Author)
+    </div>
+   
+    <input type="submit" name="SaveButton" value="Save" />
+
+}
